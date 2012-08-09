@@ -44,7 +44,7 @@
     <string name="hspa_summary_head">Enable HSDPA/HSUPA</string>
 
     <string name="category_dock_title">Dock</string>
-    <string name="dockaudio_subcat_title">DOCK AUDIO</string>
+    <string name="dockaudio_subcat_title">Audio</string>
     <string name="use_dock_audio_title_head">Use Dock USB Audio</string>
     <string name="use_dock_audio_summary_head">Use the passive audio out on the dock</string>
 </resources>
