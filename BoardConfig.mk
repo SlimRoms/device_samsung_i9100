@@ -22,8 +22,9 @@
 TARGET_BOARD_INFO_FILE := device/samsung/i9100/board-info.txt
 
 # Inline kernel building
-TARGET_KERNEL_SOURCE := kernel/samsung/smdk4210
-TARGET_KERNEL_CONFIG := cyanogenmod_i9100_defconfig
+#TARGET_KERNEL_SOURCE := kernel/samsung/smdk4210
+#TARGET_KERNEL_CONFIG := cyanogenmod_i9100_defconfig
+TARGET_PREBUILT_KERNEL := device/samsung/i9100/zImage
 
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/i9100/overlay/include
 EXYNOS4210_ENHANCEMENTS := true
