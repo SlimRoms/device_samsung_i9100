@@ -1,18 +1,18 @@
 [
     {
-        "repository": "CyanogenMod/android_device_samsung_galaxys2-common",
+        "repository": "SlimRoms/android_device_samsung_galaxys2-common",
         "target_path": "device/samsung/galaxys2-common"
-	"branch": "jellybean"
+	"branch": "jb"
     },
     {
-        "repository": "CyanogenMod/android_device_samsung_i9100",
+        "repository": "SlimRoms/android_device_samsung_i9100",
         "target_path": "device/samsung/i9100"
-	"branch": "jellybean"
+	"branch": "jb"
     },
     {
-        "repository": "CyanogenMod/android_hardware_samsung",
+        "repository": "SlimRoms/android_hardware_samsung",
         "target_path": "hardware/samsung"
-	"branch": "jellybean"
+	"branch": "jb"
     },
 
 ]
