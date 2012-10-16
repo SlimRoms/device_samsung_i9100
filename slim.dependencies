@@ -6,6 +6,11 @@
 	"branch": "jb"
     },
     {
+	"repository": "CyanogenMod/android_kernel_samsung_smdk4210",
+	"target_path": "kernel/samsung/smdk4210",
+	"branch": "jellybean"
+    },
+    {
         "repository": "TheMuppets/proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
 	"branch": "jellybean"
