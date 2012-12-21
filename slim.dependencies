@@ -15,6 +15,11 @@
         "branch": "jb4.2"
     },
     {
+        "repository": "TheMuppets/proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "branch": "cm-10.1"
+    },
+    {
         "repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
         "target_path": "packages/apps/SamsungServiceMode",
         "branch": "cm-10.1"
