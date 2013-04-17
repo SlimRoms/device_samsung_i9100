@@ -157,4 +157,8 @@
     <!-- Disable the home key unlock setting -->
     <bool name="config_disableHomeUnlockSetting">false</bool>
 
+    <!-- Boolean to enable/disable SlimPIE
+        default is enabled -->
+    <bool name="config_slimPie">false</bool>
+
 </resources>
