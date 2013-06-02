@@ -5,9 +5,9 @@
         "branch": "jb4.2"
     },
     {
-        "repository": "CyanogenMod/android_kernel_samsung_smdk4210",
-        "target_path": "kernel/samsung/smdk4210",
-        "branch": "cm-10.1"
+        "repository": "SlimRoms/kernel_samsung_smdk4412",
+        "target_path": "kernel/samsung/smdk4412",
+        "branch": "jb4.2"
     },
     {
         "repository": "SlimRoms/hardware_samsung",
