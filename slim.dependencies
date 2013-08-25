@@ -18,10 +18,5 @@
         "repository": "SlimRoms/proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
         "branch": "jb4.3"
-    },
-    {
-        "repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
-        "target_path": "packages/apps/SamsungServiceMode",
-        "branch": "cm-10.2"
     }
 ]
