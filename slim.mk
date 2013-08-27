@@ -36,10 +36,6 @@ $(call inherit-product, vendor/slim/config/common_sgs.mk)
 # Inherit torch settings
 $(call inherit-product, vendor/slim/config/common_ledflash.mk)
 
-#Boot Animation
-PRODUCT_COPY_FILES +=  \
-    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9100
 PRODUCT_NAME := slim_i9100
