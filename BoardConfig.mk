@@ -33,5 +33,18 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/i9100/overlay/include
 # assert
 TARGET_OTA_ASSERT_DEVICE := galaxys2,i9100,GT-I9100,GT-I9100M,GT-I9100P,GT-I9100T
 
+#TWRP
+DEVICE_RESOLUTION := 480x800
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_INTERNAL_STORAGE_PATH := "/emmc" #needs confirmation
+TW_INTERNAL_STORAGE_MOUNT_POINT := "emmc" #needs confirmation
+TW_EXTERNAL_STORAGE_PATH := "/sdcard" #needs confirmation
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdcard" #needs confirmation
+TW_NO_REBOOT_BOOTLOADER := true
+TW_DEFAULT_EXTERNAL_STORAGE := false
+TW_FLASH_FROM_STORAGE := true
+TW_INCLUDE_INJECTTWRP := true
+TW_HAS_DOWNLOAD_MODE := true
+
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/i9100/BoardConfigVendor.mk
