@@ -30,9 +30,6 @@ $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9100/full_i9100.mk)
 
-# Inherit torch settings
-$(call inherit-product, vendor/slim/config/common_ledflash.mk)
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9100
 PRODUCT_NAME := slim_i9100
