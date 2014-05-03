@@ -7,7 +7,7 @@
     {
         "repository": "SlimRoms/kernel_samsung_smdk4412",
         "target_path": "kernel/samsung/smdk4412",
-        "branch": "kk4.4"
+        "branch": "kk4.4-old"
     },
     {
         "repository": "SlimRoms/hardware_samsung",
