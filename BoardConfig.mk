@@ -27,7 +27,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9100/bluetooth
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := slim_i9100_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-13.04/bin/arm-linux-gnueabihf-
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.9-15.05/bin/arm-linux-gnueabihf-
 
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/i9100/overlay/include
 # assert
@@ -35,16 +35,13 @@ TARGET_OTA_ASSERT_DEVICE := galaxys2,i9100,GT-I9100,GT-I9100M,GT-I9100P,GT-I9100
 
 #TWRP
 DEVICE_RESOLUTION := 480x800
-RECOVERY_GRAPHICS_USE_LINELENGTH := true
-TW_INTERNAL_STORAGE_PATH := "/emmc" #needs confirmation
-TW_INTERNAL_STORAGE_MOUNT_POINT := "emmc" #needs confirmation
-TW_EXTERNAL_STORAGE_PATH := "/sdcard" #needs confirmation
-TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdcard" #needs confirmation
+HAVE_SELINUX := true
+TW_INCLUDE_JB_CRYPTO := true
 TW_NO_REBOOT_BOOTLOADER := true
-TW_DEFAULT_EXTERNAL_STORAGE := false
-TW_FLASH_FROM_STORAGE := true
-TW_INCLUDE_INJECTTWRP := true
-TW_HAS_DOWNLOAD_MODE := true
+TW_INTERNAL_STORAGE_PATH := "/emmc"
+TW_INTERNAL_STORAGE_MOUNT_POINT := "emmc"
+TW_EXTERNAL_STORAGE_PATH := "/sdcard"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdcard"
 
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/i9100/BoardConfigVendor.mk
