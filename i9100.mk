@@ -23,16 +23,12 @@ LOCAL_PATH := device/samsung/i9100
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # This device is hdpi.
-PRODUCT_AAPT_CONFIG := normal hdpi
+PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_LOCALES += hdpi
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240
-
-# Packages
-PRODUCT_PACKAGES += \
-    DeviceSettings
 
 # Sensors
 PRODUCT_PACKAGES += \
@@ -53,5 +49,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/usr/idc/melfas_ts.idc:system/usr/idc/melfas_ts.idc \
     $(LOCAL_PATH)/usr/idc/mxt224_ts_input.idc:system/usr/idc/mxt224_ts_input.idc \
     $(LOCAL_PATH)/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc
+
+# TWRP
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ramdisk/twrp.fstab:recovery/root/etc/twrp.fstab
 
 $(call inherit-product-if-exists, vendor/samsung/i9100/i9100-vendor.mk)
